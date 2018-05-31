@@ -1,14 +1,15 @@
 {
   "name": "barebones-npm-cors-proxy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CORS Enabled npmjs proxy",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Shriram Balaji",
   "license": "MIT",
+  "repository": "https://github.com/Shriram-Balaji/https-barebones-npm-cors-proxy",
   "dependencies": {
     "cors-anywhere": "^0.4.1"
   }

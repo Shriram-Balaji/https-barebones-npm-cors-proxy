@@ -7,7 +7,7 @@
     "start": "node src/index.js",
     "test": "ava"
   },
-  "author": "Shriram Balaji",
+  "author": "Shriram Balaji, Tarang Hirani",
   "license": "MIT",
   "repository": "https://github.com/Shriram-Balaji/npm-cors-proxy",
   "ava" : {

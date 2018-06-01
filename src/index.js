@@ -1,3 +1,6 @@
+const express = require("express");
+const app = express();
+
 const host = process.env.HOST || "0.0.0.0";
 // Listen on a specific port via the PORT environment constiable
 const port = process.env.PORT || 4231;

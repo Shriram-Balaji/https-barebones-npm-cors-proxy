@@ -1,16 +1,26 @@
 {
-  "name": "barebones-npm-cors-proxy",
-  "version": "1.0.1",
-  "description": "CORS Enabled npmjs proxy",
+  "name": "npm-cors-proxy",
+  "version": "1.0.2",
+  "description": "An cors-enabled npmjs registry proxy",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava"
   },
-  "author": "Shriram Balaji",
+  "author": "Shriram Balaji, Tarang Hirani",
   "license": "MIT",
-  "repository": "https://github.com/Shriram-Balaji/https-barebones-npm-cors-proxy",
+  "repository": "https://github.com/Shriram-Balaji/npm-cors-proxy",
+  "ava" : {
+    "files" : ["test/integration/**/*.js"]
+  },
   "dependencies": {
-    "cors-anywhere": "^0.4.1"
+    "cors-anywhere": "^0.4.1",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "ava": "1.0.0-beta.5.1",
+    "supertest": "^3.1.0",
+    "util-box": "^1.0.4"
   }
 }

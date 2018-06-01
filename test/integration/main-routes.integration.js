@@ -25,8 +25,6 @@ test("GET /proxy throws an error while trying to proxy other endpoints", async t
 });
 
 test("GET /proxy throws an error when invalid (or) no headers are provided", async t => {
-  const response = await request(BASE_URL).get(
-    "/proxy/registry.npmjs.org/gulp/"
-  );
+  const response = await request(BASE_URL).get("/proxy/registry.npmjs.org/gulp/");
   t.is(response.status, 400);
 });

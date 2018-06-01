@@ -5,7 +5,7 @@ const HOMEDIR = path.join(__dirname, ".");
 const { error, debug, success } = require("util-box");
 const Server = () => {};
 /**
- *
+ * A wrapper for a node.js http Server
  * @param {Object} app - instance of the express application
  */
 

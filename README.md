@@ -1,3 +1,5 @@
-# Barebones Cors Proxy
+# npm cors proxy 
 
-A barebones cors Proxy that will be used to proxy registry.npmjs.org
+[![Build Status](https://travis-ci.org/Shriram-Balaji/npm-cors-proxy.svg?branch=master)](https://travis-ci.org/Shriram-Balaji/npm-cors-proxy)
+
+A bare-bones cors-enabled proxy for the npm registry. 
